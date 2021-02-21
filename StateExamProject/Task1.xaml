@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StateExamProject.Task1"
+             Title="Задание 1">
+
+    <StackLayout Orientation="Vertical">
+        <Label x:Name="textLbl"
+               Text="Введите текст"
+               HorizontalOptions="CenterAndExpand"
+               TextTransform="None"
+               TextDecorations="Underline"
+               />
+        <Button x:Name="textInsertBtn"
+                Text="OK"
+                BorderColor="#7fb900"
+                BorderWidth="1"
+                BorderRadius="24"
+                BackgroundColor="GhostWhite"
+                Clicked="textInsertBtn_Clicked"/>
+        <Entry x:Name="textEntry"/>
+    </StackLayout>
+
+</ContentPage>
